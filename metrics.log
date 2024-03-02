@@ -1,0 +1,9 @@
+train_loss: 
+train_accuracy: 
+train_urs: 
+dev_loss: 
+dev_accuracy: 
+dev_urs: 
+test_loss:
+test_accuracy: 
+test_urs: 
