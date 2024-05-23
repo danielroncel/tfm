@@ -1,0 +1,57 @@
+ Train Epoch: 1 [400/10065 (4%)]	Loss: 3.216713	Avg Loss: 4.032515	Avg Acc: 8.000000%	Avg URS: 20.000000%
+Train Epoch: 1 [800/10065 (8%)]	Loss: 1.729219	Avg Loss: 2.827073	Avg Acc: 41.250000%	Avg URS: 65.000000%
+Train Epoch: 1 [1200/10065 (12%)]	Loss: 2.376986	Avg Loss: 2.216725	Avg Acc: 50.250000%	Avg URS: 72.789116%
+Train Epoch: 1 [1600/10065 (16%)]	Loss: 2.930254	Avg Loss: 1.857645	Avg Acc: 57.000000%	Avg URS: 75.342466%
+Train Epoch: 1 [2000/10065 (20%)]	Loss: 1.476397	Avg Loss: 1.592782	Avg Acc: 57.750000%	Avg URS: 72.297297%
+Train Epoch: 1 [2400/10065 (24%)]	Loss: 1.180785	Avg Loss: 1.405063	Avg Acc: 62.250000%	Avg URS: 81.481481%
+Train Epoch: 1 [2800/10065 (28%)]	Loss: 1.067480	Avg Loss: 1.203152	Avg Acc: 66.500000%	Avg URS: 83.673469%
+Train Epoch: 1 [3200/10065 (32%)]	Loss: 0.491969	Avg Loss: 1.078131	Avg Acc: 73.000000%	Avg URS: 83.006536%
+Train Epoch: 1 [3600/10065 (36%)]	Loss: 0.891780	Avg Loss: 1.129663	Avg Acc: 69.250000%	Avg URS: 83.673469%
+Train Epoch: 1 [4000/10065 (40%)]	Loss: 0.892289	Avg Loss: 1.079964	Avg Acc: 67.250000%	Avg URS: 81.118881%
+Train Epoch: 1 [4400/10065 (44%)]	Loss: 1.141421	Avg Loss: 0.977166	Avg Acc: 72.750000%	Avg URS: 90.225564%
+Train Epoch: 1 [4800/10065 (48%)]	Loss: 1.269536	Avg Loss: 0.890193	Avg Acc: 74.000000%	Avg URS: 86.486486%
+Train Epoch: 1 [5200/10065 (52%)]	Loss: 1.408056	Avg Loss: 0.871244	Avg Acc: 77.250000%	Avg URS: 85.135135%
+Train Epoch: 1 [5600/10065 (56%)]	Loss: 0.484017	Avg Loss: 0.897574	Avg Acc: 73.000000%	Avg URS: 81.097561%
+Train Epoch: 1 [6000/10065 (60%)]	Loss: 0.339883	Avg Loss: 0.779474	Avg Acc: 78.500000%	Avg URS: 92.366412%
+Train Epoch: 1 [6400/10065 (64%)]	Loss: 1.278637	Avg Loss: 0.897512	Avg Acc: 74.250000%	Avg URS: 85.483871%
+Train Epoch: 1 [6800/10065 (68%)]	Loss: 1.228919	Avg Loss: 0.802723	Avg Acc: 74.750000%	Avg URS: 88.281250%
+Train Epoch: 1 [7200/10065 (72%)]	Loss: 0.720053	Avg Loss: 0.758509	Avg Acc: 78.250000%	Avg URS: 89.552239%
+Train Epoch: 1 [7600/10065 (75%)]	Loss: 0.554747	Avg Loss: 0.747431	Avg Acc: 79.250000%	Avg URS: 88.679245%
+Train Epoch: 1 [8000/10065 (79%)]	Loss: 1.155674	Avg Loss: 0.761363	Avg Acc: 78.750000%	Avg URS: 86.923077%
+Train Epoch: 1 [8400/10065 (83%)]	Loss: 0.374350	Avg Loss: 0.673605	Avg Acc: 80.500000%	Avg URS: 88.405797%
+Train Epoch: 1 [8800/10065 (87%)]	Loss: 0.915445	Avg Loss: 0.737168	Avg Acc: 77.750000%	Avg URS: 88.435374%
+Train Epoch: 1 [9200/10065 (91%)]	Loss: 0.288191	Avg Loss: 0.673450	Avg Acc: 80.750000%	Avg URS: 93.288591%
+Train Epoch: 1 [9600/10065 (95%)]	Loss: 0.618402	Avg Loss: 0.689313	Avg Acc: 79.250000%	Avg URS: 89.743590%
+Train Epoch: 1 [10000/10065 (99%)]	Loss: 0.539867	Avg Loss: 0.717078	Avg Acc: 74.750000%	Avg URS: 84.722222%
+Train Epoch: 1 [2517/10065 (100%)]	Loss: 0.041890	Avg Loss: 0.722088	Avg Acc: 73.000000%	Avg URS: 84.615385%
+
+Test set: Average loss: 0.9293, Accuracy: 2414/3428 (70.420070%) , URS: 1047/1164 (89.948454%)
+
+Train Epoch: 2 [400/10065 (4%)]	Loss: 1.035726	Avg Loss: 0.721625	Avg Acc: 75.250000%	Avg URS: 87.581699%
+Train Epoch: 2 [800/10065 (8%)]	Loss: 0.537220	Avg Loss: 0.734251	Avg Acc: 78.000000%	Avg URS: 88.888889%
+Train Epoch: 2 [1200/10065 (12%)]	Loss: 0.520694	Avg Loss: 0.644845	Avg Acc: 82.000000%	Avg URS: 88.888889%
+Train Epoch: 2 [1600/10065 (16%)]	Loss: 1.184126	Avg Loss: 0.756245	Avg Acc: 78.250000%	Avg URS: 83.225806%
+Train Epoch: 2 [2000/10065 (20%)]	Loss: 0.379278	Avg Loss: 0.679933	Avg Acc: 79.750000%	Avg URS: 84.000000%
+Train Epoch: 2 [2400/10065 (24%)]	Loss: 2.211162	Avg Loss: 0.585743	Avg Acc: 81.250000%	Avg URS: 90.322581%
+Train Epoch: 2 [2800/10065 (28%)]	Loss: 0.871882	Avg Loss: 0.611709	Avg Acc: 81.000000%	Avg URS: 88.636364%
+Train Epoch: 2 [3200/10065 (32%)]	Loss: 0.274278	Avg Loss: 0.654835	Avg Acc: 79.500000%	Avg URS: 82.068966%
+Train Epoch: 2 [3600/10065 (36%)]	Loss: 0.972530	Avg Loss: 0.634445	Avg Acc: 80.000000%	Avg URS: 87.741935%
+Train Epoch: 2 [4000/10065 (40%)]	Loss: 0.055669	Avg Loss: 0.629513	Avg Acc: 80.750000%	Avg URS: 87.500000%
+Train Epoch: 2 [4400/10065 (44%)]	Loss: 0.739969	Avg Loss: 0.653402	Avg Acc: 77.250000%	Avg URS: 86.394558%
+Train Epoch: 2 [4800/10065 (48%)]	Loss: 1.210042	Avg Loss: 0.648988	Avg Acc: 79.250000%	Avg URS: 84.931507%
+Train Epoch: 2 [5200/10065 (52%)]	Loss: 1.050282	Avg Loss: 0.638121	Avg Acc: 80.000000%	Avg URS: 83.916084%
+Train Epoch: 2 [5600/10065 (56%)]	Loss: 0.544815	Avg Loss: 0.616935	Avg Acc: 81.000000%	Avg URS: 93.617021%
+Train Epoch: 2 [6000/10065 (60%)]	Loss: 0.187425	Avg Loss: 0.599412	Avg Acc: 82.750000%	Avg URS: 85.443038%
+Train Epoch: 2 [6400/10065 (64%)]	Loss: 0.268550	Avg Loss: 0.539859	Avg Acc: 82.000000%	Avg URS: 86.013986%
+Train Epoch: 2 [6800/10065 (68%)]	Loss: 0.390251	Avg Loss: 0.593633	Avg Acc: 81.500000%	Avg URS: 89.510490%
+Train Epoch: 2 [7200/10065 (72%)]	Loss: 0.222916	Avg Loss: 0.624663	Avg Acc: 81.000000%	Avg URS: 86.330935%
+Train Epoch: 2 [7600/10065 (75%)]	Loss: 0.158063	Avg Loss: 0.583487	Avg Acc: 82.500000%	Avg URS: 85.276074%
+Train Epoch: 2 [8000/10065 (79%)]	Loss: 0.326357	Avg Loss: 0.657668	Avg Acc: 78.250000%	Avg URS: 85.507246%
+Train Epoch: 2 [8400/10065 (83%)]	Loss: 0.269423	Avg Loss: 0.663074	Avg Acc: 78.750000%	Avg URS: 89.115646%
+Train Epoch: 2 [8800/10065 (87%)]	Loss: 1.115252	Avg Loss: 0.579446	Avg Acc: 80.750000%	Avg URS: 88.000000%
+Train Epoch: 2 [9200/10065 (91%)]	Loss: 0.256314	Avg Loss: 0.511343	Avg Acc: 84.500000%	Avg URS: 90.116279%
+Train Epoch: 2 [9600/10065 (95%)]	Loss: 0.092382	Avg Loss: 0.586546	Avg Acc: 78.500000%	Avg URS: 89.583333%
+Train Epoch: 2 [10000/10065 (99%)]	Loss: 0.349160	Avg Loss: 0.564607	Avg Acc: 81.500000%	Avg URS: 84.137931%
+Train Epoch: 2 [2517/10065 (100%)]	Loss: 0.694438	Avg Loss: 0.578658	Avg Acc: 81.750000%	Avg URS: 84.827586%
+
+Test set: Average loss: 0.8800, Accuracy: 2462/3428 (71.820303%) , URS: 1049/1164 (90.120275%)
