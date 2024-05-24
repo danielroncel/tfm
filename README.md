@@ -10,7 +10,7 @@ Spoken goal-oriented dialogue systems are increasingly popular for task manageme
 
 The repository is structured as follows:
 
-- data: Folder containing the raw data from the DSTC2 dataset. *data/zips/* contains the following zip files dowloaded directly from the DSTC2 website.
+- data: Folder containing the raw data from the DSTC2 dataset. *data/zips/* contains the following zip files dowloaded directly from the [DSTC2 repository](https://github.com/matthen/dstc?tab=readme-ov-file).
 
 - notebooks: Folder that contains the notebooks used to process the data, study it and doing the experiments.
 
