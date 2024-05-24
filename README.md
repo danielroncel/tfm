@@ -70,6 +70,20 @@ The way this datasets were created and where are they used can be found by explo
 
 To execute the models to train Architecture 2 and Architecture 3 models (terminology defined in the Master's Thesis document), you must have pretrained Architecture 1. You can obtain them by your own by training them using the model of this repository. Otherwise, you can download them from this [Google Drive folder](https://drive.google.com/drive/folders/1fWpRWctR7m_VtKmS5y9PbcFRYMVV-Ntn?usp=sharing) (the access to the folder is not permanently guaranteed, so we recommend to train your own Architecture 1 models). They cannot be uploaded into this GitHub repository due to memory restrictions.
 
+## Pretrained GPT-2 and Audio Embedding Models
+
+The pretrained models used can be found in the urls below:
+
+* [GPT-2](https://huggingface.co/openai-community/gpt2)
+
+* [Wav2Vec2.0](https://huggingface.co/facebook/wav2vec2-base-960h)
+
+* [HuBERT](https://huggingface.co/facebook/hubert-base-ls960)
+
+* [UniSpeechSAT](https://huggingface.co/microsoft/unispeech-sat-base)
+
+* [WavLM](https://huggingface.co/microsoft/wavlm-base)
+
 ## Other Comments
 
 - The dataset (original text and audio) is too large to be hosted unzipped in this GitHub repository. Therefore, the original zip files are stored inside *data/zips/*. Both the transcripts and the audios are stored in Hugging Face. However, if because any reason you need to re-upload them, use the notebooks inside *notebooks/1.create_datasets*. To be executed, unzip the files so that the files look like this:
