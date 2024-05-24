@@ -1,6 +1,6 @@
 # Audio Embeddings for Chatbots
 
-This repository coresponds to the experimental work of my Master's Thesis *Audio Embedding for Chatbot*, in part of the fullfilment of the [Master's degree in Advanced Telecommunication Technologies (MATT)](https://telecos.upc.edu/ca/estudis/masters/masters-degree-in-advanced-telecommunication-technologies-matt) at [Universitat Politècnica de Catalunya (UPC)](https://www.upc.edu/).
+This repository corresponds to the experimental work of my Master's Thesis *Audio Embedding for Chatbot*, in part of the fullfilment of the [Master's degree in Advanced Telecommunication Technologies (MATT)](https://telecos.upc.edu/ca/estudis/masters/masters-degree-in-advanced-telecommunication-technologies-matt) at [Universitat Politècnica de Catalunya (UPC)](https://www.upc.edu/).
 
 ## Abstract
 
