@@ -14,7 +14,7 @@ The repository is structured as follows:
 
 - notebooks: Folder that contains the notebooks used to process the data, study it and doing the experiments.
 
-    - 1.create_datasets: 
+    - 1.create_datasets: Folder with the notebooks that upload the DSTC2 to Huggin Face. In particular, notebook *create_dataset_dialogues.ipynb* creates the dataset with the correct transcripts of the conversations, and *create_dataset_audios.ipynb* does the same for the audio files.
 
     - 2.text_processing: Folder with the notebooks used to preprocess the dialogues before being used to train the models. The processing applied correspond to the one described in the Master's Thesis document. In particular, the folder contains notebook *dialogues_processing.ipynb* to concat the last 9 turns of the conversation, applying GPT-2 tokenizer, etc. and notebook *filtering_and_labels_dialogues_processed.ipynb* to do filter the messages for which there is an audio file and numerating the labels.
 
@@ -31,6 +31,53 @@ The repository is structured as follows:
 - output_data: Folder that stores the log files generated during training. These log files are loaded in the notebooks from *notebooks/6.results/*.
 
 Notice that to execute the notebooks either in a local computer or cloud services such as Colab, most of the notebooks must be adapted to get the data from the correct paths. Also, notice that if any change in the notebooks for preprocessing the data is done, the output dataset of that notebook must be uploaded again, and the path of the dataset must correpond to one associated to your account.
+
+## Hugging Face Datasets
+
+To accelerate the experimental work, several datasets have been uploaded into Hugging Face.
+
+- Correct transcripts:
+
+    - [danielroncel/dstc2_dialogues](https://huggingface.co/datasets/danielroncel/dstc2_dialogues): Table with all the messages of all conversation of the DSTC2 dataset, both from users and system.
+
+    - [danielroncel/dstc2_dialogues_processed](https://huggingface.co/datasets/danielroncel/dstc2_dialogues_processed): Table with a row per user message in the DSTC2 datset, concatenating the last 9 turns of the conversation, and GPT-2 tokenizer applied. Generated using as input danielroncel/dstc2_dialogues table.
+
+    - [danielroncel/dstc2_dialogues_input_gpt2](https://huggingface.co/datasets/danielroncel/dstc2_dialogues_input_gpt2): Corresponds to danielroncel/dstc2_dialogues_processed table but with the labels encoded numerically.
+
+- ASR transcripts:
+
+    - [danielroncel/dstc2_dialogues_transcription](https://huggingface.co/datasets/danielroncel/dstc2_dialogues_transcription): Our ASR transcriptions of the DSTC2 user messages.
+
+    - [danielroncel/dstc2_dialogues_transcription_processed](https://huggingface.co/datasets/danielroncel/dstc2_dialogues_transcription_processed): Analogous to danielroncel/dstc2_dialogues_processed dataset but for ASR transcriptions.
+
+    - [danielroncel/dstc2_dialogues_transcript_input_gpt2](https://huggingface.co/datasets/danielroncel/dstc2_dialogues_transcript_input_gpt2): Analogous to danielroncel/dstc2_dialogues_input_gpt2 dataset but for ASR transcriptions.
+
+- Audios:
+
+    - [danielroncel/dstc2_audios](https://huggingface.co/datasets/danielroncel/dstc2_audios): Table with all the user audios of the DSTC2 dataset.
+
+    - [danielroncel/dstc2_audios_input_wav2vec2](https://huggingface.co/datasets/danielroncel/dstc2_audios_input_wav2vec2): Dataset with audios preprocessed to be used as input for Wav2Vec2.0.
+
+    - [danielroncel/dstc2_audios_input_hubert](https://huggingface.co/datasets/danielroncel/dstc2_audios_input_hubert): Dataset with audios preprocessed to be used as input for HuBERT.
+
+    - [danielroncel/dstc2_audios_input_uniSpeechSAT](https://huggingface.co/datasets/danielroncel/dstc2_audios_input_uniSpeechSAT): Dataset with audios preprocessed to be used as input for UniSpeechSAT.
+
+    - [danielroncel/dstc2_audios_input_wavLM](https://huggingface.co/datasets/danielroncel/dstc2_audios_input_wavLM): Dataset with audios preprocessed to be used as input for WavLM.
+
+The way this datasets were created and where are they used can be found by exploring the notebooks stored in this repository.
+
+## Pretrained Architecture 1
+
+To execute the models to train Architecture 2 and Architecture 3 models (terminology defined in the Master's Thesis document), you must have pretrained Architecture 1. You can obtain them by your own by training them using the model of this repository. Otherwise, you can download them from this [Google Drive folder](https://drive.google.com/drive/folders/1fWpRWctR7m_VtKmS5y9PbcFRYMVV-Ntn?usp=sharing) (the access to the folder is not permanently guaranteed, so we recommend to train your own Architecture 1 models). They cannot be uploaded into this GitHub repository due to memory restrictions.
+
+## Other Comments
+
+- The dataset (original text and audio) is too large to be hosted unzipped in this GitHub repository. Therefore, the original zip files are stored inside *data/zips/*. Both the transcripts and the audios are stored in Hugging Face. However, if because any reason you need to re-upload them, use the notebooks inside *notebooks/1.create_datasets*. To be executed, unzip the files so that the files look like this:
+
+<img src="./imgs/unzipped_files.png" alt="Unzipped files" width="450"/>
+
+
+- In notebooks that run experiments using Architecture 2, the audio embedding layers output used as input for the linear predictor depend on the audio embedding model layer; they are those specified in the Master's Thesis document.
 
 ## Potential Future Work
 
